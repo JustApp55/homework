@@ -17,7 +17,7 @@ class New extends React.Component {
             <form action="/logs" method="POST">
                 <input type="text"/>
                 <input type="textarea"/>
-                <input type="checkbox"/>
+                <input type="checkbox" value="true/false" />
                 <input type="submit"/>
 
             </form>
